@@ -1,12 +1,13 @@
 //All 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
-*{text-decoration: none; color: black; font-family: 'Quicksand', sans-serif; font-family: 'Quicksand', sans-serif; background-color: #F5F5F5; }
+*{text-decoration: none; color: black; font-family: 'Quicksand', sans-serif; font-family: 'Quicksand', sans-serif; background-color: #F5F5F5;} //Ajouter un z-index pour le background
 
 //color
 
 //Style page
 header{
 .headerMain{
+    z-index: 1;
         font-family: 'Quicksand', sans-serif;
         margin: 58px;
         .menuBar{
@@ -20,9 +21,7 @@ header{
             gap: 32px;    
             a{cursor: not-allowed;}
         }
-        .mtHover:hover{
-            color: #93C6F0;
-        }
+        .mtHover:hover{color: #93C6F0;}
     }
 
     .titleMain{
@@ -86,6 +85,7 @@ header{
 footer{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }

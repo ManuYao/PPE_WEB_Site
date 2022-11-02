@@ -8,6 +8,7 @@
 }
 
 header .headerMain {
+  z-index: 1;
   font-family: 'Quicksand', sans-serif;
   margin: 58px;
 }
@@ -37,6 +38,10 @@ header .headerMain .menuBar #menuText a {
 
 header .headerMain .menuBar .mtHover:hover {
   color: #93C6F0;
+}
+
+header .headerMain .menuBar .mtHover:focus {
+  color: #0A2C48;
 }
 
 header .headerMain .titleMain {
@@ -146,6 +151,8 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
