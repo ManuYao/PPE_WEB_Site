@@ -1,0 +1,91 @@
+//All 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*{text-decoration: none; color: black; font-family: 'Quicksand', sans-serif; font-family: 'Quicksand', sans-serif; background-color: #F5F5F5; }
+
+//color
+
+//Style page
+header{
+.headerMain{
+        font-family: 'Quicksand', sans-serif;
+        margin: 58px;
+        .menuBar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            //margin: 64px;
+            //gap: 1200px;
+        #menuText{
+            display: flex;
+            gap: 32px;    
+            a{cursor: not-allowed;}
+        }
+        .mtHover:hover{
+            color: #93C6F0;
+        }
+    }
+
+    .titleMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 165px;
+            .btnMain{
+                cursor: not-allowed; 
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: white;
+                background-color: #D24B4B;
+                border-color: #D24B4B;
+                border-radius: 40px;
+                height: 3pc;
+                width: 5cm;
+                box-shadow: 16px 15px 28px 0px rgba(31, 31, 31, .6);
+                //box-shadow: 16px 15px 28px 0px rgba(31 31 31 .2);
+                button > img > #btnimg{
+                    height: 27px;
+                    width: auto;
+                    background-color: rgba(117, 190, 218, 0.0);
+                }
+            }
+            .btnMain:hover{
+                background-color: #93C6F0;
+                border-color: #93C6F0;
+                box-shadow: 16px 15px 28px 0px rgba(147, 198, 240, .6);
+            }
+        }
+    }
+}
+#art{
+    .art_1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 128px;
+        #hallProjet{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .sousProjet{
+            height: 8cm;
+            width: 9cm;
+        }
+        .link_1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 75px;
+            border-radius: 1cm;
+        }
+    }
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
