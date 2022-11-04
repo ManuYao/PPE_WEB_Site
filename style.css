@@ -10,6 +10,14 @@ body {
   background-color: #F5F5F5;
 }
 
+.img_basic {
+  height: 50px;
+}
+
+.img_basic_projet {
+  height: 40px;
+}
+
 header .headerMain {
   font-family: 'Quicksand', sans-serif;
 }
@@ -157,6 +165,6 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 75px;
+  height: 100px;
 }
 /*# sourceMappingURL=style.css.map */
