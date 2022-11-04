@@ -11,9 +11,7 @@ body {
 }
 
 header .headerMain {
-  z-index: 1;
   font-family: 'Quicksand', sans-serif;
-  margin: 58px;
 }
 
 header .headerMain .menuBar {
@@ -55,6 +53,7 @@ header .headerMain .titleMain {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 165px;
+  padding: 65px;
 }
 
 header .headerMain .titleMain .btnMain {
@@ -158,6 +157,6 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 1cm;
+  height: 75px;
 }
 /*# sourceMappingURL=style.css.map */

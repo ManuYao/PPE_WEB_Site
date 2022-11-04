@@ -8,15 +8,11 @@ body{background-color: #F5F5F5;}
 //Style page
 header{
 .headerMain{
-    z-index: 1;
         font-family: 'Quicksand', sans-serif;
-        margin: 58px;
         .menuBar{
             display: flex;
             align-items: center;
             justify-content: space-between;
-            //margin: 64px;
-            //gap: 1200px;
         #menuText{
             display: flex;
             gap: 32px;    
@@ -30,6 +26,7 @@ header{
         flex-direction: column;
         align-items: center;
         margin-top: 165px;
+        padding: 65px;
             .btnMain{
                 cursor: not-allowed; 
                 display: flex;
@@ -42,7 +39,6 @@ header{
                 height: 3pc;
                 width: 5cm;
                 box-shadow: 16px 15px 28px 0px rgba(31, 31, 31, .6);
-                //box-shadow: 16px 15px 28px 0px rgba(31 31 31 .2);
                 button > img > #btnimg{
                     height: 27px;
                     width: auto;
@@ -89,5 +85,5 @@ footer{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin: 1cm;
+    height: 75px;
 }
