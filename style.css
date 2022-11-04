@@ -41,10 +41,6 @@ header .headerMain .menuBar #menuText {
   gap: 32px;
 }
 
-header .headerMain .menuBar #menuText a {
-  cursor: not-allowed;
-}
-
 header .headerMain .menuBar .mtHover:hover {
   color: #93C6F0;
 }

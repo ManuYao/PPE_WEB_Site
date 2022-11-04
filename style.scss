@@ -1,6 +1,6 @@
 //All 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
-*{text-decoration: none; color: black; font-family: 'Quicksand', sans-serif; font-family: 'Quicksand', sans-serif;} //Ajouter un z-index pour le background
+*{text-decoration: none; color: black; font-family: 'Quicksand', sans-serif; font-family: 'Quicksand', sans-serif;} 
 body{background-color: #F5F5F5;}
 .img_basic{height: 50px;} .img_basic_projet{height: 40px;}
 //color
@@ -16,7 +16,7 @@ header{
         #menuText{
             display: flex;
             gap: 32px;    
-            a{cursor: not-allowed;}
+            //a{cursor: not-allowed;}
         }
         .mtHover:hover{color: #93C6F0;}
     }
