@@ -4,6 +4,9 @@
   color: black;
   font-family: 'Quicksand', sans-serif;
   font-family: 'Quicksand', sans-serif;
+}
+
+body {
   background-color: #F5F5F5;
 }
 
@@ -38,10 +41,6 @@ header .headerMain .menuBar #menuText a {
 
 header .headerMain .menuBar .mtHover:hover {
   color: #93C6F0;
-}
-
-header .headerMain .menuBar .mtHover:focus {
-  color: #0A2C48;
 }
 
 header .headerMain .titleMain {
@@ -159,5 +158,6 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 1cm;
 }
 /*# sourceMappingURL=style.css.map */

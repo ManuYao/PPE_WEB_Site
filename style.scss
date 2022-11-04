@@ -1,6 +1,7 @@
 //All 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
-*{text-decoration: none; color: black; font-family: 'Quicksand', sans-serif; font-family: 'Quicksand', sans-serif; background-color: #F5F5F5;} //Ajouter un z-index pour le background
+*{text-decoration: none; color: black; font-family: 'Quicksand', sans-serif; font-family: 'Quicksand', sans-serif;} //Ajouter un z-index pour le background
+body{background-color: #F5F5F5;}
 
 //color
 
@@ -88,4 +89,5 @@ footer{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    margin: 1cm;
 }
