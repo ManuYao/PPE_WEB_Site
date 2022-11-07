@@ -1,0 +1,2 @@
+Ici je laisse les photo par default 
+Les image réelement utiliser sont dans le main du projet 
